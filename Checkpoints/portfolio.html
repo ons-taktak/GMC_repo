@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+	<!-- importing roboto font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+	<!-- ===== Header containg the navigation & title ===== -->
+	<header id="home">
+		<nav id="navBar">
+			<a href="#home" class="navElement"> Home </a> |
+			<a href="#about" class="navElement"> About </a> |
+			<a href="#work" class="navElement"> Work & Projects </a> |
+			<a href="#resume" class="navElement"> Resume </a> |
+			<a href="#contact" class="navElement"> Contact </a> 
+		</nav>
+
+		<div id="titleBox">
+			<h1 id="title1"> WELCOME <h1/>
+			<p class="title2">~ to my portfolio :)</p>
+		</div>
+	</header>
+	<!-- ===== Main part of the body ===== -->
+	<main>
+		<!-- Section1: About -->
+		<section>
+			<div id="about">
+				<h1> About Ons' Portfolio: </h1>
+				<p id="aboutContent">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod 
+					tempor incididunt ut labore et dolore magna aliqua. 
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+					nisi ut aliquip ex ea commodo consequat. 
+				</p>
+			</div>
+			<div id="imgContainer">
+				<img id="img1" src="./1.jpg">
+			</div> 
+		</section>
+
+		<!-- Section2: Work & projects -->
+		<section id="work">
+			<h1 class="commonTitle"> - MOST RECENT WORK & PROJECTS -</h1>
+			<div id="workContent">
+				<ul type="square" id="workList"> 
+					<li> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+					<li> Excepteur sint occaecat cupidatat non proident. </li>
+					<li>Ut enim ad minim veniam, quis nostrud exercitation ullamco. </li>
+					<li> In culpa qui officia deserunt mollit anim id est laborum. </li>
+					<li> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+					<li> Esunt in culpa qui officia </li>
+					<li>Ut enim ad minim veniam, quis nostrud exercitation ullamco. </li>
+				</ul>
+			
+				<iframe id="vid1" src="https://www.youtube.com/embed/VMAPTo7RVCo" 
+					title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+					clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+				</iframe>
+			</div>
+			
+		</section>
+
+		<!-- Section3: Resume -->
+		<section id="resume">
+			<h1 class="commonTitle"> - RESUME - </h1>
+			<div id="resumeTable">
+				<table border="1px">
+					<tr>
+					<th>Resume entry</th>
+					<th>Category</th>
+					<th>Timeline & Duration</th>
+					</tr>
+					<tr>
+					<td>Lorem ipsum dolor sit amet, consectetur</td>
+					<td> Esunt in culpa </td>
+					<td>2017-2020</td>
+					</tr>
+					<tr>
+						<td>Lorem ipsum dolor sit amet, consectetur</td>
+						<td> Esunt in culpa </td>
+						<td>2017-2020</td>
+					</tr>
+					<tr>
+						<td>Lorem ipsum dolor sit amet, consectetur</td>
+						<td> Esunt in culpa </td>
+						<td>2017-2020</td>
+					</tr>
+					<tr>
+						<td>Lorem ipsum dolor sit amet, consectetur</td>
+						<td> Esunt in culpa </td>
+						<td>2017-2020</td>
+					</tr>
+					<tr>
+						<td>Lorem ipsum dolor sit amet, consectetur</td>
+						<td> Esunt in culpa </td>
+						<td>2017-2020</td>
+					</tr>
+				</table>
+			</div>
+		</section>
+	</main>
+
+	<!-- ===== Footer containing the contact info ===== -->
+	<footer id="contact">
+		<h3 class="commonTitle"> - CONTACT INFORMATION -</h3>
+		<div id="ons"> 
+			<img width="175px" id="onsImg" src="./o.jpg"> 
+		</div>
+		<div id="infoText">
+			<p>Ons Taktak <br/>
+				NYUAD class of 2024 <br>
+				<b>Email:</b> something5@email.com <br>
+				<b>Phone Number:</b> +555 55 555 555
+			</p>
+			
+		</div>
+	</footer>
+
+</body>
+</html>
