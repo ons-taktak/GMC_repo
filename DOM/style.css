@@ -1,0 +1,14 @@
+.image{
+   display: inline-block;
+   width: 50px;
+}
+h1{
+    display: inline-block;
+
+}
+input{
+    width: 30px;
+}
+.full{
+    color: red;
+}
